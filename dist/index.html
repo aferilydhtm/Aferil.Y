@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="ico/favicon.ico" />
+        <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="16x16" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/662346788c.js" crossorigin="anonymous"></script>
+
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- style khusus -->
+    <style>
+        #menu-toggle:checked + #menu {
+          display: block;
+        }
+    </style>
+
+    <title>Aferil | Portofolio</title>
+</head>
+<body>
+    <!-- navbar -->
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center pb-3 pt-3 md:pb-5">
+        <div class="flex-1 flex justify-between items-center">
+            <img src="ico/undraw_my_documents_re_13dc.svg" class="w-16 pt-2 md:pt-4 md:w-24 md:ml-5 -ml-3" alt="logo" />
+        </div>
+
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block"
+        ><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
+        ></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+        <nav class="md:pt-5 md:mr-5">
+            <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-4 lg:pt-0 md:text-sm font-poppins">
+            <li class="nav__item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500 active-link" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500" href="#project">PROJECT</a>
+            </li>
+            <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500" href="#about">ABOUT</a>
+            </li>
+            <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500" href="#contact">CONTACT</a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+  <!-- end navbar -->
+
+  <!-- Home -->
+  <section class="home section" id="home">
+    <div class="h-auto mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="md:ml-20 md:mr-10 md:p-1 mt-14 mb-14 md:mt-15 md:mb-15 text-center md:text-left">
+                <h1 class="text-white text-5xl font-poppins md:font-poppins pb-4 text-sky-600">Hi, I'am</h1>
+                <h1 class="text-white text-5xl font-poppins md:font-poppins text-sky-400">Aferil Yudhatama</h1>
+                <p class="font-poppins text-white mt-5 mb-10 ml-5 mr-5 md:ml-0 md:mr-0 text-sky-600">
+                    The world of technology that continues to develop is a challenge for all of us. 
+                    Because in this day and age, technology has always been a necessity in our daily life. 
+                    For that I want to develop software, and develop a beautiful website
+                </p>
+                <a
+                  href="#activity"
+                  class="font-poppins bg-blue-700 hover:bg-blue-400 duration-200 text-white rounded-full py-3 px-10 md:py-3 md:px-12 w-auto text-xl md:text-lg"
+                  >My Project <span class="fas fa-angle-double-right"></span></a
+                >
+            </div>
+
+            <div class="w-full pt-1 px-5 md:px-66 md:h-full">
+                <img src="img/undraw_programming_re_kg9v.svg" alt="ME" />
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Home -->
+
+  <!-- About Me -->
+  <section class="about section" id="about">
+        <div class="bg-stone-100 h-auto">
+            <h1 class="text-center text-4xl text-extrabold text-sky-600 font-poppins pt-8 md:pt-10 pb-5 mb:pb-0 px-20"><strong>ABOUT ME</strong></h1>
+            <div class="grid grid-cols-1 lg:grid-cols-2 mt-2 px-4 md:px-12 justify-items-center">
+                <!-- <div class="px-10 md:-pt-10">
+                    <figure class="rounded-xl mx-auto">
+                        <img src="img/Foto.png" class="w-full md:-ml-8 mt-10 md:my-20 rounded-full" alt="profile">
+                    </figure>
+                </div> -->
+                <div class="w-full pt-1 px-5 md:px-66 md:h-full md:pb-10">
+                    <img class="rounded-full md:ml-4" src="img/Foto.png" alt="ME" />
+                </div>
+
+                <div class="text-center md:text-left mb-5 md:mb-0">
+                    <div class="md:pt-3 md:pr-3">
+                        <p class=" text-sky-500 text-base md:text-xl font-poppins mt-8 md:mt-5 md:pt-3 md:mr-0">
+                            Hello!, My name is Aferil Yudhatama. I was born in Jakarta, April 10 2003. 
+                            I am currently a student at Budi Luhur University. I have internship experience when I was in Vocational High School, 
+                            namely as a software developer at the National Narcotics Agency, and PT. Citra Corpora Center Park. 
+                        </p>
+                        <p class="text-sky-500 text-base md:text-xl font-poppins mt-4 mb-4">Now, I'm looking for opportunities to gain work experience and broaden my skills.</p>
+                        <hr class="pb-4" style="border-top: 1px dotted blue" />
+                        <div class="md:flex pb-5">
+                            <a class="text-blue-700 hover:text-blue-500 fab fa-linkedin text-4xl mr-3" href=""></a>
+                            <a class="text-blue-700 hover:text-blue-500 fab fa-github text-4xl mr-3" href="https://github.com/aferilydhtm"></a>
+                            <a class="text-blue-700 hover:text-blue-500 fab fa-instagram text-4xl mr-3" href="https://www.instagram.com/aferil_ydtma/"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+  <!-- End About Me -->
+
+  <!-- Project -->
+  <section class="project section" id="project">
+    <div class="bg-sky-500 h-auto pt-10 pb-14">
+      <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-extrabold text-white px-20 font-poppins"><strong>MY LATEST PROJECTS</strong></h1>
+        <div class="grid grid-cols-1 gap-10 mt-12 mb-16 ml-10 mr-10 md:grid-cols-3 font-poppins">
+
+          <div class="border bg-gray-300 shadow-lg rounded" data-aos="flip-left">
+            <img src="img/XC.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://xc-class-s122.vercel.app/">XC-Class-S1</a></h1>
+            <div class="flex">
+              <a class="bg-blue-700 hover:bg-blue-400 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://xc-class-s122.vercel.app/"
+                >See More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="border bg-gray-300 shadow-lg rounded" data-aos="flip-up">
+            <img src="img/UBLPMB.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://web-pmb-budiluhur.vercel.app/">Web PMB BudiLuhur</a></h1>
+            <div class="flex">
+              <a class="bg-blue-700 hover:bg-blue-400 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://web-pmb-budiluhur.vercel.app/"
+                >See More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="border bg-gray-300 shadow-lg rounded" data-aos="flip-right">
+            <img src="img/UNIGAMES.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://unigames-beta.vercel.app/">Unigames</a></h1>
+            <div class="flex">
+              <a class="bg-blue-700 hover:bg-blue-400 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://unigames-beta.vercel.app/"
+                >See More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Project -->
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="bg-stone-100 h-auto">
+        <div class="container mx-auto pt-5 pb-10 font-poppins">
+            <h1 class="text-center text-4xl text-extrabold text-sky-600 font-poppins pt-3 md:pt-6 pb-3 md:pb-10 px-20"><strong>CONTACT</strong></h1>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="md:ml-20 md:mr-10 md:p-1 mt-8 mb-2 md:mt-3 md:mb-15 text-left md:text-left">
+                    <h1 class="text-white text-base font-poppins md:font-poppins pb-4 text-sky-600 ml-5 md:ml-0">You can also see my profile here</h1>
+                    <div class="pb-5 ml-5 md:ml-0">
+                        <a class="text-blue-700 hover:text-blue-500 fab fa-linkedin text-4xl mr-3" href=""></a>
+                        <a class="text-blue-700 hover:text-blue-500 fab fa-github text-4xl mr-3" href="https://github.com/aferilydhtm"></a>
+                        <a class="text-blue-700 hover:text-blue-500 fab fa-instagram text-4xl mr-3" href="https://www.instagram.com/aferil_ydtma/"></a>
+                    </div>
+                    <p class="font-poppins text-white text-base md:text-xl mt-5 mb-3 ml-5 mr-5 md:ml-0 md:mr-0 text-sky-600">
+                        <i class="fas fa-phone mr-2"></i> (+62) 88212898771
+                    </p>
+                    <p class="font-poppins text-white text-base md:text-xl mt-5 mb-10 ml-5 mr-5 md:ml-0 md:mr-0 text-sky-600">
+                        <i class="fas fa-envelope mr-2"></i> aferilyudhatama04@gmail.com
+                    </p>
+                </div>
+
+                <div class="ml-3 mt-2 md:mt-0">
+                    <form name="Form-Contact-Aferil">
+                        <div class="flex-col">
+                            <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="name" placeholder="Name">
+                            <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email">
+                            <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="subject" placeholder="Subject">
+                            <textarea name="message" placeholder="Message" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5"></textarea>
+                            <button type="submit" class="my-3 mx-4 py-2 px-8 border rounded bg-blue-700 hover:bg-blue-400 duration-200 text-white">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!-- End Contact -->
+
+  <!-- Footer -->
+  <div class="bg-sky-600 h-auto">
+    <div class="container mx-auto font-poppins">
+      <p class="text-white text-center pt-10 pb-10">
+        © 2021 Personal Website - Created by Aferil Yudhatama
+      </p>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- JavaScript -->
+    <!-- Scroll Back to Top -->
+    <script src="js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  <!-- End JavaScript -->
+
+</body>
+</html>
